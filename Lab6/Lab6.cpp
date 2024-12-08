@@ -16,7 +16,7 @@ public:
 	}
 	virtual void stop() override { 
 		std::cout << "Car stopping" << std::endl;
-	}
+	} // szkoda, że nie zdefniował Pan destruktorów w klasach pochodnych
 };
 
 class Bike : public Vehicle {
@@ -49,7 +49,7 @@ public:
 	}
 };
 
-int main() {
+int main() { // brakuje wskaźników inteligentnych! (zadanie 3)
 	std::vector<Vehicle*> vector = { new Car(), new Bike(), new Motorbike(), new Scooter() };
 
 	for (Vehicle* vehicle : vector) {
