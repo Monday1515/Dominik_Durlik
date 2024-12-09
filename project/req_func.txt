@@ -1,0 +1,26 @@
+Fizyka:
+ - Model inercji
+ - Model kolizji
+
+Generacja przestrzeni:
+ - Model generowania systemu kosmicznego bazujący na ziarnie:
+    - Planety
+    - Asteroidy
+    - Stacje kosmiczne
+
+Funkcjonalności modelu gracza (statku kosmicznego):
+ - Obsługa plecaka
+ - Wymienne wyposażenie
+ - Model limitowanych zasobów (paliwo, amunicja, itp.)
+ - Alokacja energii (możliwość rozdysponowania dostępnych zasobów do odpowiednich systemów statku)
+ - Technologia podróży nadświetlnej (automatyczna podróż z punktu A do punktu B przy znacznie wyższej prędkości niż domyślna)
+ - Podstawowy HUD (wyświetlanie na ekranie podstawowych informacji odnośnie statusu statku)
+ - Radar zbliżeniowy (model minimapy w przestrzeni 3d)
+ - Możliwość skanowania obiektu/wroga (opcjonalne)
+ - Model trakcyjny podczas celowania (po wyborze celu zostanie wyświetlone przybliżone miejsce by po oddaniu strzału obiekt został trafiony) (opcjonalne)
+
+Inne funkcjonalności:
+ - Podstawowy model AI dla NPC
+ - Mechanika kopania (opcjonalnie)
+ - Zmiany w cennach przedmiotów bazujące na ziarnie generacji oraz decyzjach gracza (podaż i popyt) (opcjonalne)
+ - "Operacjie wewnątrz orbitalne" (lądowanie, podróż wewnątrz atmosfery, itp.) (opcjonalnie)

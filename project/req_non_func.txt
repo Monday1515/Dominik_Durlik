@@ -1,0 +1,4 @@
+- zachowywanie płynności FPS
+- stabilność aplikacji
+- możliwość rozbudowy modułów
+- czytelne oraz intuicyjne UI
