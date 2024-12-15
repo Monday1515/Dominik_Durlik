@@ -1,0 +1,3 @@
+Niepoprawne oznaczenia relacji kompozycji materiał-kurs i agregacji kurs-sala lekcyjna na diagramie.
+Strzałki zamkniete powinny byc skierowane w drugą stronę (relacja uogólnienia). 
+Ponadto, w klasach nie ma żadnych operacji!
