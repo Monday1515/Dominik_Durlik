@@ -19,7 +19,7 @@ public:
         return email;
     }
 
-    void display() const {
+    void display() const {  // wyprowadzanie informacji nie powinno być łączone z resztą tej klasy
         std::cout << "Name: " << name << ", Email: " << email << "\n";
     }
 };
@@ -33,7 +33,7 @@ public:
         users.emplace_back(name, email);
     }
 
-    void displayAllUsers() const {
+    void displayAllUsers() const { // j.w.
         if (users.empty()) {
             std::cout << "No users available.\n";
             return;
@@ -53,13 +53,13 @@ class UserSaver {
 public:
     void saveUsersToFile(const std::vector<User>& users, const std::string& filename) {
         std::cout << "Saving users to file: " << filename << "\n";
-        for (const auto& user : users) {
-            std::cout << "Saving: " << user.getName() << ", " << user.getEmail() << "\n";
+        for (const auto& user : users) {   
+            std::cout << "Saving: " << user.getName() << ", " << user.getEmail() << "\n";  // tylko, że to nie jest kierowane do pliku
         }
     }
 };
 
-class Discount {
+class Discount { // poprawnie; // ale, dlaczwgo rozwiązał Pan tylko 2 zadanie z pięciu?
 protected:
     double discounted_price = (double)0;
 public:
