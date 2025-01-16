@@ -7,7 +7,7 @@ private:
     Pizza(const std::string dough, const std::string sauce, const std::string topping) : dough(dough), sauce(sauce), topping(topping) {}
 
 public:
-    class Builder {
+    class Builder {  // ten wzorzec Budowniczego winien być ukonkretniony da różnych rodzajów pizzy
     private:
         std::string dough, sauce, topping;
 
