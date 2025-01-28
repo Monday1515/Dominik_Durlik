@@ -1,4 +1,4 @@
-import java.math.BigDecimal;
+import java.math.BigDecimal; // w ogólności - poprawnie
 import java.util.ArrayList;
 import java.util.List;
 
