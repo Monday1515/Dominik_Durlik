@@ -19,7 +19,7 @@ class User {
         return email;
     }
 
-    public void display() {
+    public void display() {   // niedobrze, to nie jest klasa jednej roli
         System.out.println("Name: " + name + ", Email: " + email);
     }
 }
@@ -134,7 +134,7 @@ class Rectangle implements Shape {
     }
 }
 
-class Square implements Shape {
+class Square implements Shape { // klasa Aquare winn adziedziczyc po Rectangle; niniejsze rozwiązanie nie jest ilustracja zasady LSP
     private double side;
 
     public Square(double side) {
